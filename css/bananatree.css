@@ -1,0 +1,72 @@
+.outer { width:100%;text-align: center; }
+.inner { width:1000px;text-align: left;margin:auto; }
+
+
+header {
+  padding-top: 50px;
+  display: block;
+  height: 50px;
+}
+
+header a {
+  font-family: "brandon-grotesque",sans-serif;
+  color: #919195;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+header .homebutton {
+  float:left;
+  margin-left: 40px;
+}
+
+header nav {
+  float:right;
+}
+
+header nav ul {
+  margin-right: 60px;
+}
+
+header nav ul,
+header nav ul li {
+  display: inline;
+  list-style-type: none;
+  list-style: none;
+}
+
+header nav ul li {
+  margin-left: 80px;
+}
+
+header nav ul li.first {
+  margin:0px;
+}
+
+
+body.front .body {
+  background-image: url('../img/homebg.jpg');
+  background-repeat:no-repeat;
+  position: relative;
+  height: 700px;
+}
+
+body.front .homelogo {
+  position: absolute;
+  top: -60px;
+  left: 70px;
+}
+
+.tagline {
+  padding: 10px;
+  background-image: url('../img/taglinebg.png');
+  font-family: "brandon-grotesque", sans-serif;
+  color: #fff;
+  width: 525px;
+  position: absolute;
+  left: 455px;
+  top: 300px;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
