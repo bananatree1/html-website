@@ -70,3 +70,23 @@ body.front .homelogo {
   font-size: 20px;
   letter-spacing: 2px;
 }
+
+.contactbox {
+  position: absolute;
+  top:360px;
+  left:455px;
+  padding: 10px;
+  background-image: url('../img/taglinebg.png');
+  font-family: "brandon-grotesque", sans-serif;
+  color: #fff;
+  font-size: 18px;
+  padding-right: 40px;
+  letter-spacing: 1px;
+}
+
+.contactbox a {
+  color:#fff;
+  font-size: 18px;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
