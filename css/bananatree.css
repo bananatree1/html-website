@@ -139,12 +139,14 @@ body.about .secondcol {
 }
 
 body.about .secondcol {
-  border:none;
+  border: none;
   height: 640px;
+  width: 310px;
+  margin-left: 425px;
 }
 
 body.press .thirdcol .row,
-body.about .thridcol .row {
+body.about .thirdcol .row {
   margin-bottom:10px;
 }
 
@@ -191,4 +193,68 @@ body.about .secondcol p {
   text-decoration: none;
   font-family: "brandon-grotesque", sans-serif;
   padding-left: 16px;
+  width: 280px;
+  margin-top:0px;
+}
+
+body.about h1 {
+  margin-top:20px;
+  margin-bottom: 20px;
+}
+
+body.about div.text {
+  height: 336px;
+}
+
+
+#services {
+  position: relative;
+}
+
+#logo {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+#designbuild {
+  position: absolute; 
+  left: 140px;
+  top: 0px;
+}
+
+#redesign {
+  position: absolute;
+  left: 735px;
+  top: 0px;
+}
+
+#trainlocal {
+  position: absolute;
+  left: 0px;
+  top: 230px;
+}
+
+#fruit {
+  position: absolute;
+  left: 423px;
+  top: 230px;
+}
+
+#trees {
+  position: absolute;
+  left: 735px;
+  top: 285px;
+}
+
+#frames {
+  position: absolute;
+  left: 0px;
+  top: 572px;
+}
+
+#dreams {
+  position: absolute;
+  left: 423px;
+  top: 432px;
 }
