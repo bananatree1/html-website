@@ -96,34 +96,41 @@ body.front .homelogo {
 }
 
 
-body.press {
+body.press,
+body.about {
   height:640px;
 }
 
-body.press .bodyleft {
+body.press .bodyleft,
+body.about .bodyleft {
   float:left;
   width:735px;
 }
 
-body.press .bodyright {
+body.press .bodyright,
+body.about .bodyright {
   margin-left:745px;
 }
 
-body.press .firstcol {
+body.press .firstcol,
+body.about .firstcol {
   width:415px;
   float:left;
 }
 
-body.press .firstcol .row {
+body.press .firstcol .row,
+body.about .firstcol .row {
   margin-bottom:10px;
 }
 
-body.press .firstcol .row .left {
+body.press .firstcol .row .left,
+body.about .firstcol .row .left {
   float:left;
   margin-right: 10px;
 }
 
-body.press .secondcol {
+body.press .secondcol,
+body.about .secondcol {
   width: 310px;
   margin-left: 425px;
   border-top: 17px solid #EB9E3C;
@@ -131,11 +138,18 @@ body.press .secondcol {
   height:610px;
 }
 
-body.press .thirdcol .row {
+body.about .secondcol {
+  border:none;
+  height: 640px;
+}
+
+body.press .thirdcol .row,
+body.about .thridcol .row {
   margin-bottom:10px;
 }
 
-body.press h1 {
+body.press h1,
+body.about h1 {
   font-family: "brandon-grotesque", sans-serif;
   font-size: 14px;
   font-weight: normal;
@@ -169,4 +183,12 @@ body.press .secondcol ul li a {
 
 body.press .secondcol ul li a:hover {
   text-decoration: underline;
+}
+
+body.about .secondcol p {
+  color: #919195;
+  font-size: 16px;
+  text-decoration: none;
+  font-family: "brandon-grotesque", sans-serif;
+  padding-left: 16px;
 }
