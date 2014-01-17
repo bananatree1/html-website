@@ -16,6 +16,10 @@ header a {
   font-size: 12px;
 }
 
+header a:hover {
+  text-decoration: underline;
+}
+
 header .homebutton {
   float:left;
   margin-left: 40px;
@@ -89,4 +93,80 @@ body.front .homelogo {
   font-size: 18px;
   text-decoration: none;
   letter-spacing: 1px;
+}
+
+
+body.press {
+  height:640px;
+}
+
+body.press .bodyleft {
+  float:left;
+  width:735px;
+}
+
+body.press .bodyright {
+  margin-left:745px;
+}
+
+body.press .firstcol {
+  width:415px;
+  float:left;
+}
+
+body.press .firstcol .row {
+  margin-bottom:10px;
+}
+
+body.press .firstcol .row .left {
+  float:left;
+  margin-right: 10px;
+}
+
+body.press .secondcol {
+  width: 310px;
+  margin-left: 425px;
+  border-top: 17px solid #EB9E3C;
+  border-bottom: 17px solid #EB9E3C;
+  height:610px;
+}
+
+body.press .thirdcol .row {
+  margin-bottom:10px;
+}
+
+body.press h1 {
+  font-family: "brandon-grotesque", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0px;
+  padding: 0px;
+  color: #eb9e3c;
+  text-transform: uppercase;
+  margin-top: 45px;
+  margin-bottom: 20px;
+  padding-left: 16px;
+}
+
+body.press .secondcol ul,
+body.press .secondcol ul li {
+  list-style: none;
+  margin:0px;
+  padding:0px;
+}
+
+body.press .secondcol ul li {
+  padding-left:16px;
+  margin-bottom: 20px;
+}
+
+body.press .secondcol ul li a {
+  color: #919195;
+  font-size: 16px;
+  text-decoration: none;
+  font-family: "brandon-grotesque", sans-serif;
+}
+
+body.press .secondcol ul li a:hover {
+  text-decoration: underline;
 }
