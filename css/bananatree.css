@@ -135,7 +135,7 @@ body.about .secondcol {
   margin-left: 425px;
   border-top: 17px solid #EB9E3C;
   border-bottom: 17px solid #EB9E3C;
-  height:610px;
+  height: 579px;
 }
 
 body.about .secondcol {
@@ -232,13 +232,13 @@ body.about div.text {
 #trainlocal {
   position: absolute;
   left: 0px;
-  top: 230px;
+  top: 229px;
 }
 
 #fruit {
   position: absolute;
-  left: 423px;
-  top: 230px;
+  left: 415px;
+  top: 229px;
 }
 
 #trees {
@@ -250,11 +250,11 @@ body.about div.text {
 #frames {
   position: absolute;
   left: 0px;
-  top: 572px;
+  top: 564px;
 }
 
 #dreams {
   position: absolute;
-  left: 423px;
-  top: 432px;
+  left: 415px;
+  top: 431px;
 }
