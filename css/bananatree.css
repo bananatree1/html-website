@@ -135,7 +135,7 @@ body.about .secondcol {
   margin-left: 425px;
   border-top: 17px solid #EB9E3C;
   border-bottom: 17px solid #EB9E3C;
-  height: 579px;
+  min-height: 579px;
 }
 
 body.about .secondcol {
@@ -159,8 +159,8 @@ body.about h1 {
   padding: 0px;
   color: #eb9e3c;
   text-transform: uppercase;
-  margin-top: 45px;
-  margin-bottom: 20px;
+  margin-top: 25px;
+  margin-bottom: 15px;
   padding-left: 16px;
 }
 
@@ -173,7 +173,7 @@ body.press .secondcol ul li {
 
 body.press .secondcol ul li {
   padding-left:16px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 body.press .secondcol ul li a {
