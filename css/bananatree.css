@@ -196,12 +196,12 @@ body.about .secondcol p {
   font-family: "brandon-grotesque", sans-serif;
   padding-left: 16px;
   width: 280px;
-  margin-top:0px;
+  margin: 0px;
   line-height: 28px;
 }
 
 body.about h1 {
-  margin-top: 15px;
+  margin-top: 20px;
   margin-bottom: 15px;
 }
 
