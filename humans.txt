@@ -3,11 +3,7 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
-
-# THANKS
-
-    <name>
+  Duran Goodyear - Developer - @alphex
 
 # TECHNOLOGY COLOPHON
 
