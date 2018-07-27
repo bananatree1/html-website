@@ -6,6 +6,13 @@
   <head>
 
 
+    <script>
+      var addy = window.location.href;
+      if (addy.indexOf('http:') === 0) {
+        window.location.href = addy.replace(/^http/, 'https')
+      }
+    </script>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Banana Tree Consulting</title>
